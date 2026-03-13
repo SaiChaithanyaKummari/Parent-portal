@@ -1,0 +1,47 @@
+﻿Top-level keys: [
+  'students',
+  'parents',
+  'academicRecords',
+  'attendanceRecords',
+  'paymentRecords'
+]
+attendanceRecords exists: true
+paymentRecords exists: true
+academicRecords exists: true
+
+Student 1 (Anil Kumar): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 2 (Rohit Verma): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 3 (Priya Singh): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 4 (Sneha Gupta): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 5 (Rohan Patel): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 6 (Ayesha Khan): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 7 (Karthik Reddy): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 8 (Meera Nair): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 9 (Aditya Sharma): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+Student 10 (Kavita Joshi): acad=true, att=true, pay=true
+  - summaryStats: 3, monthlyData: 6, subjects: 6, attendanceMap keys: 44
+  - transactions: 2
+
+=== Simulating Login Flow ===
+Parent found: true parentId: 101 studentId: 1
+Student found: true id: 1 name: Anil Kumar
+After JSON round-trip, student.id type: number value: 1
+Result page academic data found: true
